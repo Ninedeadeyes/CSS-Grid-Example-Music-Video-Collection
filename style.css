@@ -1,0 +1,19 @@
+.grid{
+    background:white;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(50px,auto);
+    grid-gap:1em;
+    justify-items: stretch;     /* start,center,end x axis  */
+    align-items:stretch;    /* start,center,end y axis strech=default  */
+}
+
+.header{
+    background: lightblue;
+    grid-column: 1/4;
+    grid-row:1/1;
+    text-align: center;
+    font-size: 30px;
+
+
+}
