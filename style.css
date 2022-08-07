@@ -17,8 +17,7 @@
 
 .introduction{
     background: white;
-    grid-column: 1/4;
-    grid-row:1/1;
+    grid-column: 1/4;       /* the number depends on grid-template columns having 3 columns means there are 4 lines for the entire line */
     text-align: left;
     font-size: 20px;
     font-family: sans-serif;
