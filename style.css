@@ -14,7 +14,7 @@
     gap:2em;
     justify-items: stretch;     /* start,center,end x axis  */
     align-items:stretch;    /* start,center,end y axis strech=default  */
-    margin-left: 1.5%;
+    margin-left: 2%;
 }
 
 .introduction{
