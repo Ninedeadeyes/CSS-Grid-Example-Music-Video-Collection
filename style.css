@@ -4,31 +4,39 @@
     font-family:Bungee;
 }
 
+
+
 .grid{
     background:white;
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(50px,auto);
-    grid-gap:1em;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-auto-rows: minmax(50px,auto); 
+    gap:2em;
     justify-items: stretch;     /* start,center,end x axis  */
     align-items:stretch;    /* start,center,end y axis strech=default  */
-    text-align: center;
+    margin-left: 1.5%;
 }
 
 .introduction{
     background: white;
     grid-column: 1/4;       /* the number depends on grid-template columns having 3 columns means there are 4 lines for the entire line */
-    text-align: left;
     font-size: 20px;
     font-family: sans-serif;
     margin-top: 80px;    /* because of header   */
-    border-radius:2em; 
+    border-radius:2em;
+    text-align: center;
+    padding: 2em;
 }
 
 .title{
 text-decoration-line: underline;
+text-align: center;
 }
 
+.video{
+    font-size: 1em;
+
+}
 
 
 .headContainer{
